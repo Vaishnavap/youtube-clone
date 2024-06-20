@@ -1,0 +1,100 @@
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+  
+    background: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+}
+
+.navleft .navbar-menu {
+    width: 22px; /* Adjust width as needed */
+    margin-right: 25px;
+}
+
+.navleft .navbar-logo {
+    width: 130px;
+    height: 30px;
+}
+
+
+/* navbar.css or your preferred CSS file */
+.navcenter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-searchbox {
+    position: relative; /* Ensure relative positioning */
+    margin-right: 15px; /* Adjust margin as needed */
+  }
+  
+  .navbar-searchbox form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-searchbox input[type="text"] {
+    padding: 10px;
+    width: 400px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .navbar-searchbox input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff; 
+    border-radius:30px;/* Change border color on focus */
+  }
+  
+  .navbar-searchbox button {
+    background-color: #ffffff; /* Blue background */
+    color: rgb(255, 252, 252);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-searchbox button:hover {
+    background-color: #ffffff; /* Darker blue on hover */
+  }
+  
+  .navbar-searchbox button img {
+    width: 20px; /* Adjust size of the search icon */
+    vertical-align: middle;
+    margin-right: 5px; /* Add space between icon and text */
+  }
+  
+
+    
+
+
+input:focus{
+    outline: none;
+}
+.navright{
+    display:flex;
+    align-items:center;
+}
+.navright img{
+    width:25px;
+    margin-right:25px;
+    height:30px;
+}
+.navright .navbar-notification{
+    width:20px;
+    margin-right:25px;
+    height:20px;
+    align-self: center;
+}
+
+
